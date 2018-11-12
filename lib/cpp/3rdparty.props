@@ -2,9 +2,9 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
-    <BOOST_ROOT>$(THIRD_PARTY)\boost\boost_1_47_0</BOOST_ROOT>
-    <OPENSSL_ROOT_DIR>$(THIRD_PARTY)\openssl\OpenSSL-Win32</OPENSSL_ROOT_DIR>
-    <LIBEVENT_ROOT>$(THIRD_PARTY)\libevent-2.0.21-stable</LIBEVENT_ROOT>
+    <BOOST_ROOT>..\..\..\boost\boost_1_65_1\</BOOST_ROOT>
+    <OPENSSL_ROOT_DIR>..\..\..\openssl-1.0.2p\</OPENSSL_ROOT_DIR>
+    <LIBEVENT_ROOT>..\..\..\libevent\</LIBEVENT_ROOT>
   </PropertyGroup>
   <PropertyGroup />
   <ItemDefinitionGroup />

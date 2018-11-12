@@ -21,7 +21,11 @@
 #include <sstream>
 #include <iostream>
 
+#ifdef WIN32
+#include <config.h>
+#else
 #include <thrift/config.h>
+#endif
 #include <thrift/transport/THttpServer.h>
 #include <thrift/transport/TSocket.h>
 #if defined(_MSC_VER) || defined(__MINGW32__)

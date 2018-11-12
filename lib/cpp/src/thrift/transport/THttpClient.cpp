@@ -22,7 +22,11 @@
 #include <sstream>
 #include <boost/algorithm/string.hpp>
 
+#ifdef WIN32
+#include <config.h>
+#else
 #include <thrift/config.h>
+#endif
 #include <thrift/transport/THttpClient.h>
 #include <thrift/transport/TSocket.h>
 
